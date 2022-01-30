@@ -1,0 +1,782 @@
+﻿Log file open, 02/19/18 12:39:07
+LogInit:Display: Running engine for game: Amonia
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1183738534) SRandInit(1183738534).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107648
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.19-10.39.08:411][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.19-10.39.08:411][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.19-10.39.08:455][  0]LogInit: Computer: DESKTOP-9KN8K70
+[2018.02.19-10.39.08:455][  0]LogInit: User: KozaFazan
+[2018.02.19-10.39.08:455][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.02.19-10.39.08:455][  0]LogInit: High frequency timer resolution =2.143574 MHz
+[2018.02.19-10.39.08:455][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.19-10.39.08:455][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.19-10.39.08:455][  0]LogMemory: Process Physical Memory: 263.70 MB used, 263.70 MB peak
+[2018.02.19-10.39.08:455][  0]LogMemory: Process Virtual Memory: 262.34 MB used, 262.34 MB peak
+[2018.02.19-10.39.08:455][  0]LogMemory: Physical Memory: 3937.59 MB used,  4146.68 MB free, 8084.27 MB total
+[2018.02.19-10.39.08:455][  0]LogMemory: Virtual Memory: 662.03 MB used,  4146.68 MB free, 134217728.00 MB total
+[2018.02.19-10.39.08:485][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.02.19-10.39.09:380][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.19-10.39.09:387][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.02.19-10.39.09:387][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.02.19-10.39.09:454][  0]LogD3D11RHI:    1. 'AMD Radeon HD 7600M Series' (Feature Level 11_0)
+[2018.02.19-10.39.09:454][  0]LogD3D11RHI:       2028/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2018.02.19-10.39.09:457][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.19-10.39.09:457][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.19-10.39.09:457][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.02.19-10.39.09:464][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.19-10.39.09:464][  0]LogD3D11RHI:     GPU DeviceId: 0x6840 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.19-10.39.09:464][  0]LogWindows: EnumDisplayDevices:
+[2018.02.19-10.39.09:465][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.02.19-10.39.09:465][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.02.19-10.39.09:466][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.02.19-10.39.09:466][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.19-10.39.09:466][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7600M Series
+[2018.02.19-10.39.09:466][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.19-10.39.09:466][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.19-10.39.09:466][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.19-10.39.09:479][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.19-10.39.09:492][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.02.19-10.39.09:494][  0]LogShaderCompilers: Guid format shader working directory is 29 characters bigger than the processId version (E:/Source Code/Amonia/Intermediate/Shaders/WorkingDirectory/7780/).
+[2018.02.19-10.39.09:494][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KozaFazan/AppData/Local/Temp/UnrealShaderWorkingDir/C5197C79483E209E564262A770818EAE/'.
+[2018.02.19-10.39.09:494][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.19-10.39.10:971][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.19-10.39.11:072][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.19-10.39.11:180][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.19-10.39.11:281][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.19-10.39.11:385][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.19-10.39.11:484][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.19-10.39.11:593][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.19-10.39.11:708][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.19-10.39.11:801][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.19-10.39.11:909][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.19-10.39.12:008][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.19-10.39.12:115][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.19-10.39.12:221][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.19-10.39.12:353][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.19-10.39.12:451][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.19-10.39.12:687][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.19-10.39.12:687][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.19-10.39.12:763][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.19-10.39.12:909][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.19-10.39.12:966][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.19-10.39.13:059][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.19-10.39.13:154][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.19-10.39.13:254][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.19-10.39.13:358][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.19-10.39.13:358][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.19-10.39.14:154][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.19-10.39.14:228][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/KozaFazan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2018.02.19-10.39.14:228][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/KozaFazan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2018.02.19-10.39.14:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Source Code/Amonia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.19-10.39.14:228][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.19-10.39.14:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Source Code/Amonia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.19-10.39.14:228][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.19-10.39.14:248][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.19-10.39.14:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/KozaFazan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.19-10.39.14:617][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.19-10.39.14:622][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.19-10.39.14:957][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.19-10.39.15:046][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.19-10.39.15:149][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.19-10.39.15:149][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.19-10.39.15:149][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.19-10.39.15:910][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: amonia, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2209561530
+[2018.02.19-10.39.15:987][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2018.02.19-10.39.16:165][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.139320 seconds
+[2018.02.19-10.39.16:172][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2018.02.19-10.39.16:172][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2018.02.19-10.39.16:172][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.19-10.39.16:291][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.19-10.39.17:694][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.19-10.39.17:695][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.19-10.39.17:695][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.19-10.39.19:082][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.19-10.39.19:146][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.19-10.39.19:698][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.19-10.39.20:398][  0]SourceControl: Info Source control is disabled
+[2018.02.19-10.39.20:399][  0]SourceControl: Info Source control is disabled
+[2018.02.19-10.39.20:498][  0]SourceControl: Info Source control is disabled
+[2018.02.19-10.39.20:589][  0]SourceControl: Info Source control is disabled
+[2018.02.19-10.39.23:342][  0]LogEngine: Initializing Engine...
+[2018.02.19-10.39.23:344][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.19-10.39.23:729][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.19-10.39.23:740][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-10.39.23:759][  0]LogInit: FAudioDevice initialized.
+[2018.02.19-10.39.23:794][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/KozaFazan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2018.02.19-10.39.23:800][  0]LogInit: Texture streaming: Enabled
+[2018.02.19-10.39.24:133][  0]LogInit: Transaction tracking system initialized
+[2018.02.19-10.39.24:798][  0]BlueprintLog: New page: Editor Load
+[2018.02.19-10.39.26:470][  0]LocalizationService: Info Localization service is disabled
+[2018.02.19-10.39.27:742][  0]LogConsoleResponse:Display: 
+[2018.02.19-10.39.27:968][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.19-10.39.27:969][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.19-10.39.28:972][  0]LogFileCache: Scanning file cache for directory 'E:/Source Code/Amonia/Content/' took 0.02s
+[2018.02.19-10.39.29:832][  0]SourceControl: Info Source control is disabled
+[2018.02.19-10.39.29:832][  0]Cmd: MAP LOAD FILE="E:/Source Code/Amonia/Content/Amonia/maps/Level_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-10.39.29:866][  0]LightingResults: New page: Lighting Build
+[2018.02.19-10.39.29:943][  0]MapCheck: New page: Map Check
+[2018.02.19-10.39.29:943][  0]LightingResults: New page: Lighting Build
+[2018.02.19-10.39.33:248][  0]LogAIModule: Creating AISystem for world Level_00
+[2018.02.19-10.39.33:294][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-10.39.33:295][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-10.39.33:408][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.199ms to complete.
+[2018.02.19-10.39.33:408][  0]LogFileHelpers: Loading map 'Level_00' took 3.576
+[2018.02.19-10.39.33:480][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.19-10.39.33:674][  0]LogCollectionManager: Loaded 1 collections in 0.004419 seconds
+[2018.02.19-10.39.33:791][  0]LogFileCache: Scanning file cache for directory 'E:/Source Code/Amonia/Saved/Collections/' took 0.01s
+[2018.02.19-10.39.33:791][  0]LogFileCache: Scanning file cache for directory 'E:/Source Code/Amonia/Content/Developers/KozaFazan/Collections/' took 0.01s
+[2018.02.19-10.39.33:791][  0]LogFileCache: Scanning file cache for directory 'E:/Source Code/Amonia/Content/Collections/' took 0.01s
+[2018.02.19-10.39.33:791][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000006 seconds
+[2018.02.19-10.39.33:791][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2018.02.19-10.39.33:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2190 classes and 428 folders.
+[2018.02.19-10.39.33:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.19-10.39.33:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.19-10.39.33:908][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0082 seconds. Added 13 classes and 0 folders.
+[2018.02.19-10.39.34:039][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0061 seconds. Added 0 classes and 0 folders.
+[2018.02.19-10.39.35:185][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0063 seconds. Added 0 classes and 0 folders.
+[2018.02.19-10.39.35:349][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0059 seconds. Added 1 classes and 2 folders.
+[2018.02.19-10.39.35:536][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.19-10.39.35:541][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.19-10.39.35:646][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0058 seconds. Added 1 classes and 2 folders.
+[2018.02.19-10.39.35:647][  0]LogLoad: (Engine Initialization) Total time: 30.54 seconds
+[2018.02.19-10.39.35:647][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.95 seconds
+[2018.02.19-10.39.35:647][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.19-10.39.35:658][  0]LogOcInput: OculusInput pre-init called
+[2018.02.19-10.39.35:679][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.19-10.39.35:932][  0]LogRenderer: Reallocating scene render targets to support 800x372 NumSamples 1 (Frame:2).
+[2018.02.19-10.39.36:198][  2]LogAssetRegistry: Asset discovery search completed in 20.2326 seconds
+[2018.02.19-10.39.36:199][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000009 seconds (found 0 objects)
+[2018.02.19-10.39.36:199][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000038 seconds (updated 0 objects)
+[2018.02.19-10.40.20:630][732]LogBlueprint:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. A Blueprint (boar_char) has a node ('Equal (Object)') with a pin ('A') that has a default object ('Bp_Shot') that is now deprecated - use the target's class instead (may just require a resave).
+[2018.02.19-10.40.21:004][732]LogAIModule: Creating AISystem for world Level_04
+[2018.02.19-10.40.21:058][732]Cmd: MAP LOAD FILE="E:/Source Code/Amonia/Content/Amonia/maps/Level_04.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-10.40.21:058][732]LightingResults: New page: Lighting Build
+[2018.02.19-10.40.21:058][732]LoadErrors: New page: Loading map: Level_04.umap
+[2018.02.19-10.40.21:061][732]MapCheck: New page: Map Check
+[2018.02.19-10.40.21:061][732]LightingResults: New page: Lighting Build
+[2018.02.19-10.40.21:159][732]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-10.40.21:193][732]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-10.40.21:302][732]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.391ms to complete.
+[2018.02.19-10.40.21:303][732]LogFileHelpers: Loading map 'Level_04' took 0.246
+[2018.02.19-10.40.35:202][408]LogAIModule: Creating AISystem for world Level_S1L1
+[2018.02.19-10.40.35:229][408]Cmd: MAP LOAD FILE="E:/Source Code/Amonia/Content/Amonia/maps/S1/L1/Level_S1L1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-10.40.35:230][408]LightingResults: New page: Lighting Build
+[2018.02.19-10.40.35:230][408]LoadErrors: New page: Loading map: Level_S1L1.umap
+[2018.02.19-10.40.35:233][408]MapCheck: New page: Map Check
+[2018.02.19-10.40.35:233][408]LightingResults: New page: Lighting Build
+[2018.02.19-10.40.35:350][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-10.40.35:385][408]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-10.40.35:500][408]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.777ms to complete.
+[2018.02.19-10.40.35:501][408]LogFileHelpers: Loading map 'Level_S1L1' took 0.272
+[2018.02.19-10.40.38:949][588]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.19-10.40.38:967][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.40.38:967][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.19-10.40.38:967][588]PIE: New page: PIE session: Level_S1L1 (Feb 19, 2018, 2:40:38 PM)
+[2018.02.19-10.40.38:967][588]LogPlayLevel: Creating play world package: /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1
+[2018.02.19-10.40.38:979][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011622s)
+[2018.02.19-10.40.38:980][588]LogAIModule: Creating AISystem for world Level_S1L1
+[2018.02.19-10.40.38:980][588]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2018.02.19-10.40.38:980][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1 to /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1.Level_S1L1 (0.012747s)
+[2018.02.19-10.40.38:995][588]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-10.40.39:007][588]LogInit: FAudioDevice initialized.
+[2018.02.19-10.40.39:058][588]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.19-10.40.39:075][588]LogWorld: Bringing World /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1.Level_S1L1 up for play (max tick rate 0) at 2018.02.19-12.40.39
+[2018.02.19-10.40.39:077][588]LogWorld: Bringing up level for play took: 0.016509
+[2018.02.19-10.40.39:158][588]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0061 seconds. Added 11 classes and 0 folders.
+[2018.02.19-10.40.39:168][588]PIE: Info Play in editor start time for /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1 0.122
+[2018.02.19-10.40.39:168][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.40.39:203][588]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:2511).
+[2018.02.19-10.41.08:626][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.41.08:713][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.41.26:146][162]LogEditorViewport: Clicking on Actor (LMB): PaperGroupedSpriteActor (PaperGroupedSpriteActor2)
+[2018.02.19-10.41.33:462][437]LogEditorViewport: Clicking on Actor (LMB): PaperGroupedSpriteActor (PaperGroupedSpriteActor2)
+[2018.02.19-10.41.33:813][449]LogEditorViewport: Clicking on Actor (context menu): PaperGroupedSpriteActor (PaperGroupedSpriteActor2)
+[2018.02.19-10.41.55:039][360]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (grass_Sprite82)
+[2018.02.19-10.41.58:453][469]EditorErrors: New page: Actor Reattachment
+[2018.02.19-10.41.59:600][511]LogEditorViewport: Clicking Background
+[2018.02.19-10.42.19:429][333]LogEditorViewport: Clicking on Actor (LMB): PaperGroupedSpriteActor (PaperGroupedSpriteActor8)
+[2018.02.19-10.42.42:560][286]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (treetop_Sprite)
+[2018.02.19-10.42.46:852][411]LogEditorViewport: Clicking Background
+[2018.02.19-10.43.10:584][434]LogEditorViewport: Clicking Background
+[2018.02.19-10.43.30:321][300]LogEditorViewport: Clicking Background
+[2018.02.19-10.43.52:172][219]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.19-10.43.52:195][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.43.52:195][219]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.19-10.43.52:196][219]LogPlayLevel: [PlayLevel] Compiling Level_S1L1 before play...
+[2018.02.19-10.43.52:287][219]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (1 blueprints)
+[2018.02.19-10.43.52:287][219]PIE: New page: PIE session: Level_S1L1 (Feb 19, 2018, 2:43:52 PM)
+[2018.02.19-10.43.52:287][219]LogPlayLevel: Creating play world package: /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1
+[2018.02.19-10.43.52:302][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015402s)
+[2018.02.19-10.43.52:303][219]LogAIModule: Creating AISystem for world Level_S1L1
+[2018.02.19-10.43.52:303][219]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2018.02.19-10.43.52:304][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1 to /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1.Level_S1L1 (0.016748s)
+[2018.02.19-10.43.52:327][219]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-10.43.52:344][219]LogInit: FAudioDevice initialized.
+[2018.02.19-10.43.52:387][219]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.19-10.43.52:409][219]LogWorld: Bringing World /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1.Level_S1L1 up for play (max tick rate 0) at 2018.02.19-12.43.52
+[2018.02.19-10.43.52:411][219]LogWorld: Bringing up level for play took: 0.021324
+[2018.02.19-10.43.52:422][219]PIE: Info Play in editor start time for /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1 -0.624
+[2018.02.19-10.43.52:423][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.44.30:884][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.44.30:995][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.45.33:065][963]LogEditorViewport: Clicking Background
+[2018.02.19-10.45.45:500][493]LogEditorViewport: Clicking Background
+[2018.02.19-10.46.03:465][244]LogEditorViewport: Clicking Background
+[2018.02.19-10.46.11:579][577]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.19-10.46.11:615][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.46.11:615][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.19-10.46.11:615][577]PIE: New page: PIE session: Level_S1L1 (Feb 19, 2018, 2:46:11 PM)
+[2018.02.19-10.46.11:616][577]LogPlayLevel: Creating play world package: /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1
+[2018.02.19-10.46.11:632][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016320s)
+[2018.02.19-10.46.11:633][577]LogAIModule: Creating AISystem for world Level_S1L1
+[2018.02.19-10.46.11:633][577]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2018.02.19-10.46.11:633][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1 to /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1.Level_S1L1 (0.017751s)
+[2018.02.19-10.46.11:657][577]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-10.46.11:673][577]LogInit: FAudioDevice initialized.
+[2018.02.19-10.46.11:718][577]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.19-10.46.11:740][577]LogWorld: Bringing World /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1.Level_S1L1 up for play (max tick rate 0) at 2018.02.19-12.46.11
+[2018.02.19-10.46.11:741][577]LogWorld: Bringing up level for play took: 0.021150
+[2018.02.19-10.46.11:752][577]PIE: Info Play in editor start time for /Game/Amonia/maps/S1/L1/UEDPIE_0_Level_S1L1 0.706
+[2018.02.19-10.46.11:753][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.46.50:806][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.46.50:896][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1' with GeneratedClass '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1_C' with ClassGeneratedBy '/Game/Amonia/maps/S1/L1/Level_S1L1.Level_S1L1:PersistentLevel.Level_S1L1'
+[2018.02.19-10.47.05:198][327]LogAIModule: Creating AISystem for world Level_00
+[2018.02.19-10.47.06:837][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/maps/S1/L1/Level_S1L1" FILE="E:/Source Code/Amonia/Content/Amonia/maps/S1/L1/Level_S1L1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.19-10.47.10:207][327]LogSavePackage: Save=425.33ms
+[2018.02.19-10.47.10:207][327]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Level_S1L1CC54A10547454FDBB1F66B9E80AA518A.tmp' to 'E:/Source Code/Amonia/Content/Amonia/maps/S1/L1/Level_S1L1.umap'
+[2018.02.19-10.47.10:211][327]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/maps/S1/L1/Level_S1L1.umap
+[2018.02.19-10.47.10:256][327]LogFileHelpers: Saving map 'Level_S1L1' took 3.572
+[2018.02.19-10.47.10:257][327]Cmd: MAP LOAD FILE="E:/Source Code/Amonia/Content/Amonia/maps/Level_00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-10.47.10:257][327]LightingResults: New page: Lighting Build
+[2018.02.19-10.47.10:258][327]LoadErrors: New page: Loading map: Level_00.umap
+[2018.02.19-10.47.10:262][327]MapCheck: New page: Map Check
+[2018.02.19-10.47.10:262][327]LightingResults: New page: Lighting Build
+[2018.02.19-10.47.10:457][327]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-10.47.10:503][327]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-10.47.10:650][327]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 146.079ms to complete.
+[2018.02.19-10.47.10:650][327]LogFileHelpers: Loading map 'Level_00' took 0.394
+[2018.02.19-10.47.11:758][381]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.19-10.47.11:782][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00' with GeneratedClass '/Game/Amonia/maps/Level_00.Level_00_C' with ClassGeneratedBy '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00'
+[2018.02.19-10.47.11:782][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.19-10.47.11:782][381]PIE: New page: PIE session: Level_00 (Feb 19, 2018, 2:47:11 PM)
+[2018.02.19-10.47.11:782][381]LogPlayLevel: Creating play world package: /Game/Amonia/maps/UEDPIE_0_Level_00
+[2018.02.19-10.47.11:799][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016916s)
+[2018.02.19-10.47.11:800][381]LogAIModule: Creating AISystem for world Level_00
+[2018.02.19-10.47.11:800][381]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2018.02.19-10.47.11:800][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Amonia/maps/Level_00.Level_00 to /Game/Amonia/maps/UEDPIE_0_Level_00.Level_00 (0.018041s)
+[2018.02.19-10.47.11:823][381]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-10.47.11:839][381]LogInit: FAudioDevice initialized.
+[2018.02.19-10.47.11:881][381]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.19-10.47.11:899][381]LogWorld: Bringing World /Game/Amonia/maps/UEDPIE_0_Level_00.Level_00 up for play (max tick rate 0) at 2018.02.19-12.47.11
+[2018.02.19-10.47.11:901][381]LogWorld: Bringing up level for play took: 0.018715
+[2018.02.19-10.47.11:911][381]PIE: Info Play in editor start time for /Game/Amonia/maps/UEDPIE_0_Level_00 0.865
+[2018.02.19-10.47.11:912][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00' with GeneratedClass '/Game/Amonia/maps/Level_00.Level_00_C' with ClassGeneratedBy '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00'
+[2018.02.19-10.47.25:204][810]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00' with GeneratedClass '/Game/Amonia/maps/Level_00.Level_00_C' with ClassGeneratedBy '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00'
+[2018.02.19-10.47.25:271][810]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel' has LevelScriptBlueprint '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00' with GeneratedClass '/Game/Amonia/maps/Level_00.Level_00_C' with ClassGeneratedBy '/Game/Amonia/maps/Level_00.Level_00:PersistentLevel.Level_00'
+[2018.02.19-10.47.57:341][322]LogAIModule: Creating AISystem for world Level_S1L1
+[2018.02.19-10.47.57:371][322]Cmd: MAP LOAD FILE="E:/Source Code/Amonia/Content/Amonia/maps/S1/L1/Level_S1L1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-10.47.57:371][322]LightingResults: New page: Lighting Build
+[2018.02.19-10.47.57:372][322]LoadErrors: New page: Loading map: Level_S1L1.umap
+[2018.02.19-10.47.57:375][322]MapCheck: New page: Map Check
+[2018.02.19-10.47.57:375][322]LightingResults: New page: Lighting Build
+[2018.02.19-10.47.57:540][322]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-10.47.57:584][322]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-10.47.57:694][322]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.264ms to complete.
+[2018.02.19-10.47.57:694][322]LogFileHelpers: Loading map 'Level_S1L1' took 0.324
+[2018.02.19-10.48.30:830][640]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0084 seconds. Added 111 classes and 0 folders.
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator0' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator1' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator2' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator3' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator4' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator5' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::Lumber_MAX' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator0' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator1' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator2' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator3' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator4' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator5' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator0' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:010][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator1' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:011][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator2' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:011][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator3' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:011][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator4' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.54.39:011][112]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator5' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:671][281]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator0' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:671][281]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator1' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:671][281]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator2' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:671][281]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator3' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:671][281]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator4' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:671][281]LogEnum:Warning: Enum name collision: 'Lumber::NewEnumerator5' is in both '/Game/Amonia/blueprints/Monologue/Lumber.Lumber' and '/Game/Amonia/Sprites/NPCs/s1l1/Lumber/Lumber.Lumber'
+[2018.02.19-10.55.04:712][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Mono_temp_list" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp_list.uasset" SILENT=true
+[2018.02.19-10.55.04:716][281]LogSavePackage: Save=2.03ms
+[2018.02.19-10.55.04:716][281]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Mono_temp_listDDD906C14FD652314A3EBEA955551392.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp_list.uasset'
+[2018.02.19-10.55.04:718][281]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp_list.uasset
+[2018.02.19-10.56.42:147][623]LogMetaData: Removing '/Game/Amonia/blueprints/Monologue/Mono_temp_widget.SKEL_Mono_temp_widget_C' ref from Metadata '/Game/Amonia/blueprints/Monologue/Lumber_d.PackageMetaData'
+[2018.02.19-10.56.42:147][623]LogMetaData: Removing '/Game/Amonia/blueprints/Monologue/Mono_temp_widget.Mono_temp_widget_C' ref from Metadata '/Game/Amonia/blueprints/Monologue/Lumber_d.PackageMetaData'
+[2018.02.19-10.56.42:165][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Mono_temp_widget" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp_widget.uasset" SILENT=true
+[2018.02.19-10.56.42:230][623]LogSavePackage: Save=63.06ms
+[2018.02.19-10.56.42:230][623]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Mono_temp_widget2EEAAAB9452E946960CD08B4B19CBAB9.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp_widget.uasset'
+[2018.02.19-10.56.42:233][623]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp_widget.uasset
+[2018.02.19-10.56.49:873][ 23]LogMetaData: Removing '/Game/Amonia/blueprints/Monologue/Mono_temp.SKEL_Mono_temp_C' ref from Metadata '/Game/Amonia/blueprints/Monologue/Lumber_1.PackageMetaData'
+[2018.02.19-10.56.49:873][ 23]LogMetaData: Removing '/Game/Amonia/blueprints/Monologue/Mono_temp.Mono_temp_C' ref from Metadata '/Game/Amonia/blueprints/Monologue/Lumber_1.PackageMetaData'
+[2018.02.19-10.56.49:890][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Mono_temp" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset" SILENT=true
+[2018.02.19-10.56.49:951][ 23]LogSavePackage: Save=58.65ms
+[2018.02.19-10.56.49:951][ 23]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Mono_temp919FDEE944179C4A0011D4AAEF5E33EC.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset'
+[2018.02.19-10.56.49:954][ 23]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset
+[2018.02.19-10.57.57:602][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Amonia/maps/S1/L1/Level_S1L1' took 0.031
+[2018.02.19-10.57.57:680][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Lumber" FILE="E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.02.19-10.57.57:683][920]LogSavePackage: Save=1.50ms
+[2018.02.19-10.57.57:683][920]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Lumber_Auto12FB33A844922771FCF97A491CE54CB3E.tmp' to 'E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_Auto1.uasset'
+[2018.02.19-10.57.57:685][920]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_Auto1.uasset
+[2018.02.19-10.57.57:686][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Lumber_1" FILE="E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.02.19-10.57.57:689][920]LogSavePackage: Save=1.19ms
+[2018.02.19-10.57.57:689][920]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Lumber_1_Auto1682749F445A29BE6DAE3A2B8EA24F3C1.tmp' to 'E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_1_Auto1.uasset'
+[2018.02.19-10.57.57:691][920]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_1_Auto1.uasset
+[2018.02.19-10.57.57:692][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Lumber_d" FILE="E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_d_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.02.19-10.57.57:696][920]LogSavePackage: Save=1.45ms
+[2018.02.19-10.57.57:696][920]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Lumber_d_Auto16AD1E2024754C6CF195E158B84C96DE7.tmp' to 'E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_d_Auto1.uasset'
+[2018.02.19-10.57.57:698][920]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Saved/Autosaves/Game/Amonia/blueprints/Monologue/Lumber_d_Auto1.uasset
+[2018.02.19-10.57.57:698][920]LogFileHelpers: Auto-saving content packages took 0.094
+[2018.02.19-10.58.34:682][423]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.19-11.02.53:241][696]Cmd: TRANSACTION UNDO
+[2018.02.19-11.02.53:266][696]LogEditorTransaction: Undo Change Parameter Type
+[2018.02.19-11.05.21:638][101]BlueprintLog: New page: Compile Mono_temp
+[2018.02.19-11.05.21:678][101]LogBlueprint:Error: [Compiler Mono_temp] Error COMPILER ERROR: failed building connection with 'Mono Temp Widget Reference is not compatible with Lumber D Reference.' at  K2Node_CreateWidget_0
+[2018.02.19-11.05.22:124][101]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Mono Temp Widget Reference is not compatible with Lumber D Reference.' at  K2Node_CreateWidget_0
+[2018.02.19-11.05.22:125][101]LogBlueprint:Warning: [Compiler Mono_temp] Warning [1577.02] Compile of Mono_temp failed. 1 Fatal Issue(s) 0 Warning(s) [in 487 ms] (/Game/Amonia/blueprints/Monologue/Mono_temp.Mono_temp)
+[2018.02.19-11.06.25:929][848]BlueprintLog: New page: Compile Mono_temp
+[2018.02.19-11.06.27:010][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Mono_temp" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset" SILENT=true
+[2018.02.19-11.06.27:107][925]LogSavePackage: Save=54.61ms
+[2018.02.19-11.06.27:107][925]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Mono_tempD1EB8ED840F5285D46477690632C91C3.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset'
+[2018.02.19-11.06.27:110][925]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset
+[2018.02.19-11.06.44:412][459]BlueprintLog: New page: Compile Mono_temp
+[2018.02.19-11.06.45:177][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Mono_temp" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset" SILENT=true
+[2018.02.19-11.06.45:273][504]LogSavePackage: Save=55.27ms
+[2018.02.19-11.06.45:273][504]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Mono_temp65E1EEC54928ADD4BB99FBB0DB4E7836.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset'
+[2018.02.19-11.06.45:276][504]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset
+[2018.02.19-11.07.21:465][934]BlueprintLog: New page: Compile Mono_temp
+[2018.02.19-11.07.22:173][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Mono_temp" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset" SILENT=true
+[2018.02.19-11.07.22:275][973]LogSavePackage: Save=60.27ms
+[2018.02.19-11.07.22:275][973]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Mono_tempFB578E734D088AD74A95CB99D926B13D.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset'
+[2018.02.19-11.07.22:279][973]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Mono_temp.uasset
+[2018.02.19-11.08.15:904][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.19-11.08.18:113][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Lumber" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber.uasset" SILENT=true
+[2018.02.19-11.08.18:117][473]LogSavePackage: Save=1.48ms
+[2018.02.19-11.08.18:117][473]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Lumber396BFDAA4BFD1E2A69C29BA5242304FE.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber.uasset'
+[2018.02.19-11.08.18:119][473]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber.uasset
+[2018.02.19-11.08.18:126][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Lumber_1" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber_1.uasset" SILENT=true
+[2018.02.19-11.08.18:129][473]LogSavePackage: Save=1.29ms
+[2018.02.19-11.08.18:129][473]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Lumber_1CF4E908449139F54482A62AF736738A3.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber_1.uasset'
+[2018.02.19-11.08.18:132][473]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber_1.uasset
+[2018.02.19-11.08.18:136][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Amonia/blueprints/Monologue/Lumber_d" FILE="E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber_d.uasset" SILENT=true
+[2018.02.19-11.08.18:158][473]LogSavePackage: Save=1.32ms
+[2018.02.19-11.08.18:159][473]LogSavePackage: Moving 'E:/Source Code/Amonia/Saved/Lumber_d8B0B40A643526B42444A3EAB15131A19.tmp' to 'E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber_d.uasset'
+[2018.02.19-11.08.18:161][473]LogSavePackage:Display: Finished SavePackage E:/Source Code/Amonia/Content/Amonia/blueprints/Monologue/Lumber_d.uasset
+[2018.02.19-11.08.19:548][514]Cmd: QUIT_EDITOR
+[2018.02.19-11.08.20:144][514]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.19-11.08.20:180][514]LogExit: Preparing to exit.
+[2018.02.19-11.08.20:684][514]LogExit: Editor shut down
+[2018.02.19-11.08.20:684][514]LogExit: Transaction tracking system shut down
+[2018.02.19-11.08.20:823][514]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.19-11.08.20:823][514]LogExit: Object subsystem successfully closed.
+[2018.02.19-11.08.20:842][514]LogD3D11RHI: Shutdown
+[2018.02.19-11.08.20:842][514]LogD3D11RHI: CleanupD3DDevice
+[2018.02.19-11.08.20:951][514]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.19-11.08.21:007][514]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.19-11.08.21:007][514]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2D7092F1-4F42-B777-B607-588BD584F06A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=78e74af24a0c556bf8c20fa787cd4ee8%7Cbf4afe2e514a4a63b2519167b67917dd%7C932edac9-233f-4c51-adfd-693985d5b86f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.19-11.08.21:024][514]LogModuleManager: Shutting down and abandoning module SequencerWidgets (245)
+[2018.02.19-11.08.21:024][514]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2018.02.19-11.08.21:024][514]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2018.02.19-11.08.21:025][514]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2018.02.19-11.08.21:025][514]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2018.02.19-11.08.21:025][514]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2018.02.19-11.08.21:025][514]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2018.02.19-11.08.21:025][514]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2018.02.19-11.08.21:025][514]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2018.02.19-11.08.21:036][514]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2018.02.19-11.08.21:037][514]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2018.02.19-11.08.21:037][514]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2018.02.19-11.08.21:037][514]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2018.02.19-11.08.21:037][514]LogDirectoryWatcher: A directory notification for 'E:/Source Code/Amonia/Content/Collections/' was aborted.
+[2018.02.19-11.08.21:038][514]LogDirectoryWatcher: A directory notification for 'E:/Source Code/Amonia/Content/Developers/KozaFazan/Collections/' was aborted.
+[2018.02.19-11.08.21:038][514]LogDirectoryWatcher: A directory notification for 'E:/Source Code/Amonia/Saved/Collections/' was aborted.
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module Media (215)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2018.02.19-11.08.21:038][514]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2018.02.19-11.08.21:039][514]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2018.02.19-11.08.21:039][514]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2018.02.19-11.08.21:039][514]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2018.02.19-11.08.21:039][514]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2018.02.19-11.08.21:039][514]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2018.02.19-11.08.21:604][514]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2018.02.19-11.08.21:605][514]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2018.02.19-11.08.21:648][514]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2018.02.19-11.08.21:660][514]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2018.02.19-11.08.21:660][514]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2018.02.19-11.08.21:662][514]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2018.02.19-11.08.21:663][514]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2018.02.19-11.08.21:663][514]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2018.02.19-11.08.21:663][514]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2018.02.19-11.08.21:801][514]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2018.02.19-11.08.21:802][514]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2018.02.19-11.08.21:803][514]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2018.02.19-11.08.21:804][514]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2018.02.19-11.08.21:804][514]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2018.02.19-11.08.21:905][514]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2018.02.19-11.08.22:005][514]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2018.02.19-11.08.22:006][514]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module Core (75)
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2018.02.19-11.08.22:011][514]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.19-11.08.22:011][514]LogDirectoryWatcher: A directory notification for 'E:/Source Code/Amonia/Content/' was aborted.
+[2018.02.19-11.08.22:011][514]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.19-11.08.22:011][514]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2018.02.19-11.08.22:220][514]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2018.02.19-11.08.22:220][514]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2018.02.19-11.08.22:220][514]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2018.02.19-11.08.22:220][514]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2018.02.19-11.08.22:220][514]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2018.02.19-11.08.22:220][514]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2018.02.19-11.08.22:244][514]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2018.02.19-11.08.22:244][514]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2018.02.19-11.08.22:313][514]LogDerivedDataCache: Shutdown
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2018.02.19-11.08.22:313][514]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2018.02.19-11.08.22:314][514]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.19-11.08.22:314][514]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2018.02.19-11.08.22:316][514]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2018.02.19-11.08.22:316][514]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2018.02.19-11.08.22:316][514]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2018.02.19-11.08.22:316][514]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2018.02.19-11.08.22:316][514]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2018.02.19-11.08.22:316][514]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2018.02.19-11.08.22:320][514]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2018.02.19-11.08.22:323][514]LogExit: Exiting.
+[2018.02.19-11.08.22:325][514]Log file closed, 02/19/18 13:08:22
